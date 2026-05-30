@@ -1,4 +1,4 @@
-# pointers in C 
+# Pointers in C 
 
 Understanding pointers in C can seem tricky at first, but once you grasp the concepts, it becomes much clearer. Here’s a breakdown to help you get started:
 

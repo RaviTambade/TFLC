@@ -1,3 +1,5 @@
+# Abstraction
+
 Abstraction is a concept that involves simplifying complex systems or ideas by focusing on the essential details and ignoring irrelevant ones. It allows you to create a general representation of something, which can be used in different contexts without dealing with the specifics.
 
 In different fields, abstraction takes on slightly different meanings:
@@ -32,7 +34,7 @@ In procedural thinking:
 - **Decomposition**: Breaking down a complex task into smaller, more manageable steps.
 - **Control**: Managing the flow of operations, ensuring that each step is completed before moving on to the next.
 
-Procedural thinking is highly useful for tasks that are repetitive, well-defined, and require a structured approach to achieve consistency and reliability.
+Procedural thinking is highly useful for tasks that are repetitive, well-defined, and require a structured approach to achieve consistency and reliability
 
 
 

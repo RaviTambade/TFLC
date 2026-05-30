@@ -1,5 +1,5 @@
 
-## The World of C is Built on Types
+## Data Types
 
 “Sit down, students,” I begin, as we settle into the classroom, “because today we begin our journey not with code, but with *understanding*.”
 

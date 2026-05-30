@@ -1,4 +1,4 @@
-# 🌱 Welcome to Application Development with C
+# .Application Development with C
 
 *"Code is not just what we write — it’s how we think."*
 — Mentor Ravi Tambade

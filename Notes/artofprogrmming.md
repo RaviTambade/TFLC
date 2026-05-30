@@ -1,4 +1,4 @@
-## **The Art of Programming – A Journey, Not Just a Job**
+## **The Art of Programming.**
 
 *"Welcome to the world of programming,"* I often say to my new batch of students.
 "You're not just here to write code — you're here to **create**, to **solve**, and to **express your ideas in logic and language**."

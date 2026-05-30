@@ -1,4 +1,4 @@
-## 🪟 What is **MinGW** for C / C++?
+## **MinGW** for C / C++?
 
 **MinGW** stands for:
 
