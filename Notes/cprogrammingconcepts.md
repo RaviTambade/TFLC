@@ -1,4 +1,4 @@
-# 👨‍🏫 Mentor Storytelling: The Eternal Journey to Mastering C
+# The Eternal Journey to Mastering C
 
 🧓 *“Pull up a chair, young coder. Before Java, before Python, before Rust or Go — there was C. And if you truly want to understand what’s under the hood of modern computing, you must walk the path of C. It's not flashy. It's not forgiving. But it's the forge where real programmers are made.”*
 

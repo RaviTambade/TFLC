@@ -1,7 +1,6 @@
-# 👨‍🏫 The Lock That Listens to Logic
+# The Lock That Listens to Logic
 
-
-🧓 *"One day, my student walked in with an idea: ‘Sir, I want to build a smart digital lock system.’ I asked, ‘Is it smart because it has buttons and a screen?’ He replied, ‘No. It’s smart because it **understands states**.’ I smiled. That’s when we started building our lock — from Locked → Entering Code → Unlocked — using function pointers and state transitions.”*
+ *"One day, my student walked in with an idea: ‘Sir, I want to build a smart digital lock system.’ I asked, ‘Is it smart because it has buttons and a screen?’ He replied, ‘No. It’s smart because it **understands states**.’ I smiled. That’s when we started building our lock — from Locked → Entering Code → Unlocked — using function pointers and state transitions.”*
 
 Let’s dive in. This simulation works like a real-world lock keypad where:
 
@@ -11,9 +10,9 @@ Let’s dive in. This simulation works like a real-world lock keypad where:
 * If the code is wrong, it resets.
 
 
-## 🔐 Digital Lock – State Machine Design
+##  Digital Lock – State Machine Design
 
-### 🔄 **States**
+###  **States**
 
 1. `Locked`
 2. `EnteringCode`
@@ -22,7 +21,7 @@ Let’s dive in. This simulation works like a real-world lock keypad where:
 We’ll create each state as a function and use a function pointer to transition between them dynamically.
 
 
-### 🧱 Step-by-Step Implementation in C
+###  Step-by-Step Implementation in C
 
 ```c
 #include <stdio.h>
@@ -49,7 +48,7 @@ const int maxRetries = 3;
 ```
 
 
-### 🔒 1. Locked State
+###  1. Locked State
 
 ```c
 void stateLocked() {
@@ -69,7 +68,7 @@ void stateLocked() {
 ```
 
 
-### 🧾 2. Entering Code State
+###  2. Entering Code State
 
 ```c
 void stateEnteringCode() {
@@ -93,7 +92,7 @@ void stateEnteringCode() {
 ```
 
 
-### 🔓 3. Unlocked State
+###  3. Unlocked State
 
 ```c
 void stateUnlocked() {
@@ -113,7 +112,7 @@ void stateUnlocked() {
 }
 ```
 
-### 🏁 Main Function – State Runner
+###  Main Function – State Runner
 
 ```c
 int main() {
@@ -129,7 +128,7 @@ int main() {
 ```
 
 
-## ✅ Sample Output
+##  Sample Output
 
 ```
 🔐 Welcome to the Digital Lock Simulator
@@ -146,7 +145,7 @@ int main() {
 ...
 ```
 
-## 🧓 Mentor’s Notes
+## Mentor’s Notes
 
 * 🔄 **State-based logic** keeps your code clean and easy to extend.
 * 🧩 Each function handles only its own logic — no tangled mess.
@@ -157,7 +156,7 @@ int main() {
   * User code setup
   * File logging with timestamps
 
-## 💡 Final Thought:
+##  Final Thought:
 
 🧓 *“In life and in code, everything has a state — and transitions happen because of input. When you think like this, you don’t just write programs. You design intelligent systems.”*
 
