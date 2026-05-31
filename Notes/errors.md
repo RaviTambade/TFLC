@@ -90,7 +90,7 @@ Aryan learned the hard way:
 
 ```plaintext
 ┌────────────┐        ┌─────────────┐        ┌─────────────┐
-│ Compilation│ ───▶  │   Linking   │ ───▶   │   Execution  │
+│ Compilation│ ───▶  │   Linking   │ ───▶   │  Execution  │
 └────────────┘        └─────────────┘        └─────────────┘
      ⬇                     ⬇                       ⬇
  Compile-Time Errors   Linking Errors         Runtime Errors
@@ -106,4 +106,3 @@ Aryan learned the hard way:
 *"In your programming journey, expect to meet all three ghosts. But don’t fear them. Each error is a lesson wrapped in frustration. Unwrap it patiently."*
 
 > “Great coders aren’t those who never err — they are those who know how to debug with grace and learn with every mistake.”
-
