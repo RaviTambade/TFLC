@@ -1,6 +1,6 @@
-👨‍🏫 ** “Function Pointers – The Brains Behind the Machine”**
+# Function Pointers 
 
-🧓 *"When I first built an embedded system for a toll booth, I faced a challenge: how do I design logic that changes based on 'states'? Red light, green light, yellow light… each with its own behavior. Writing `if-else` for every situation was turning my code into a monster. That’s when my senior handed me a scribbled diagram — a state machine — and said, ‘Ravi, let the code behave like a real system. Not a tangled mess of conditions. Use **function pointers** as your state transitions.’"*
+ *"When I first built an embedded system for a toll booth, I faced a challenge: how do I design logic that changes based on 'states'? Red light, green light, yellow light… each with its own behavior. Writing `if-else` for every situation was turning my code into a monster. That’s when my senior handed me a scribbled diagram — a state machine — and said, ‘Ravi, let the code behave like a real system. Not a tangled mess of conditions. Use **function pointers** as your state transitions.’"*
 
 And from that day, everything changed.
 
@@ -63,7 +63,7 @@ int main() {
 }
 ```
 
-👨‍🏫 *“Notice what’s happening here? Each state knows what to do — and who comes next. The main program just loops and calls `currentState()`. That’s clean, reusable, and matches exactly how traffic lights behave in the real world.”*
+ *“Notice what’s happening here? Each state knows what to do — and who comes next. The main program just loops and calls `currentState()`. That’s clean, reusable, and matches exactly how traffic lights behave in the real world.”*
 
 ## 🥤 Example 2: Vending Machine State Machine
 
@@ -138,8 +138,7 @@ int main() {
 ```
 
 
-
-🧓 *“You see, my dear learners — you’re no longer writing instructions. You’re designing behavior. This isn’t just C programming… this is building a mini-robot brain, using the concept of states and function pointers.”*
+ *“You see, my dear learners — you’re no longer writing instructions. You’re designing behavior. This isn’t just C programming… this is building a mini-robot brain, using the concept of states and function pointers.”*
 
  
 
