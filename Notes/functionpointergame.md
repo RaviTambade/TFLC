@@ -1,5 +1,5 @@
 
-# A Game That Knows Its State
+# Function Pointers Gaming Application
 
 🧓 *“Years ago, I mentored a group of students building a simple 2D arcade game. It worked great… until they added ‘Pause’ and ‘Game Over’. Suddenly, the `main()` became an if-else jungle. I told them — ‘Games aren’t just graphics. They’re intelligent systems, and at the heart of every game is a **state machine**.’”*
 

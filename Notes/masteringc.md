@@ -1,3 +1,5 @@
+# Key concepts of C
+
 C programming is a powerful, general-purpose programming language that serves as the foundation for many modern programming languages. To master C, there are several key concepts that you need to understand. Here’s a breakdown of the important concepts in C programming:
 
 ### 1. **Data Types**

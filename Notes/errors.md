@@ -1,4 +1,4 @@
-## *"The Three Stages of Trouble – A Programmer’s Journey"*
+# Erros
 
 *“Come, young coders,”* the mentor began, walking to the center of the classroom with chalk in one hand and wisdom in the other.
 

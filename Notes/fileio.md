@@ -283,7 +283,6 @@ Only first word
 
 because `%s` stops at space.
 
----
 
 # Step 7: Reading Character by Character
 
@@ -308,8 +307,6 @@ EOF means:
 End Of File
 ```
 
----
-
 # Step 8: Writing Character by Character
 
 ```c
@@ -324,7 +321,6 @@ File becomes:
 ABC
 ```
 
----
 
 # Step 9: Writing Strings
 
@@ -338,7 +334,6 @@ File:
 Learning C Programming
 ```
 
----
 
 # Step 10: Reading Strings
 
@@ -356,7 +351,6 @@ fscanf()
 
 for text data.
 
----
 
 # Step 11: Storing Student Records
 
@@ -396,7 +390,6 @@ File:
 101 Ravi 85.00
 ```
 
----
 
 # Step 12: Reading Student Records
 
@@ -415,7 +408,6 @@ Output:
 101 Ravi 85.00
 ```
 
----
 
 # Step 13: Binary Files
 
@@ -437,8 +429,6 @@ Compact
 Efficient
 ```
 
----
-
 # Step 14: Writing Structure Directly
 
 ```c
@@ -456,7 +446,6 @@ Write entire student object
 
 directly into file.
 
----
 
 # Step 15: Reading Structure Directly
 
@@ -471,7 +460,6 @@ Entire structure comes back.
 
 This is very powerful.
 
----
 
 # Step 16: Complete Student Save Program
 
@@ -508,8 +496,6 @@ int main()
 }
 ```
 
----
-
 # Step 17: Real Industry Analogy
 
 Imagine:
@@ -541,8 +527,6 @@ Cloud Storage
 
 File Handling is the first step toward understanding databases.
 
----
-
 # Step 18: Mentor Insight
 
 Most students think:
@@ -566,7 +550,6 @@ Disk = Permanent Memory
 
 Applications become useful only when data survives program termination.
 
----
 
 # Mini Project
 
@@ -605,8 +588,6 @@ Store data in:
 students.dat
 ```
 
----
-
 # Knowledge Connection
 
 Observe how everything is connecting:
@@ -643,7 +624,6 @@ File
 
 This is exactly how early business software was built.
 
----
 
 # What Comes Next?
 

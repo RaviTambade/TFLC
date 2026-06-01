@@ -1,5 +1,5 @@
 
-👨‍🏫 The ATM That Thinks in States
+# Function Pointers and ATM
 
 
 🧓 *“One of my brightest students once said, ‘Sir, I want to simulate an ATM — just like the one near our college.’ I smiled and said, ‘Perfect. Because an ATM is the best real-world example of a **state machine**.’ You see, the ATM doesn’t just run code. It moves between **states** — Idle, Card Inserted, PIN Entry, and Transaction. Each state has its own behavior, and the transitions depend on **events**.”*

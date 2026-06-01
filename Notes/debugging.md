@@ -1,4 +1,6 @@
-## “The Detective Inside Every Programmer”
+# Debugging
+
+### “The Detective Inside Every Programmer”
 
 *"Class, gather around! Today, I’m not going to teach you a new syntax or a keyword... Today, I want to awaken the detective inside you."*
 
@@ -79,7 +81,6 @@ But the mentor warned,
 
 > “Don’t celebrate too soon. **Always test your fix.**”
 
----
 
 ### 🧪 Act 6: Testing & Reflection
 
@@ -94,7 +95,6 @@ Then he looked back and saw how one bug taught him so much:
 * Patience.
 * And the importance of **clean, clear code.**
 
----
 
 ### 🛠️ Mentor’s Toolkit for Debugging
 
@@ -110,7 +110,6 @@ Then he looked back and saw how one bug taught him so much:
 
 🔹 **Rubber Duck Debugging** – Explain your code out loud (or to a rubber duck!). You’ll be amazed how you catch your own errors.
 
----
 
 ### 🎯 Final Mentor Message
 
@@ -119,12 +118,11 @@ Then he looked back and saw how one bug taught him so much:
 > But to write code that works always — that’s a craft.
 > And debugging is the forge where that craft is perfected.”
 
----
+
 
 So next time your program crashes or behaves strangely — don’t get frustrated.
 
 ✨ Get curious. Get methodical. Get *mentally active*.
 That’s the *Art of Debugging*. And you’ve got what it takes.
 
-Let’s solve mysteries, one bug at a time. 🕵️‍♂️
-
+Let’s solve mysteries, one bug at a time.

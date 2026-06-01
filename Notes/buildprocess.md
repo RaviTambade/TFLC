@@ -1,4 +1,5 @@
-## From Code to Creation — The C Build Process Journey
+# Buid Process
+### From Code to Creation — The C Build Process Journey
 
 *“Let me take you behind the scenes,”* I tell my students on their first day of system programming.
 “You see that small C program you wrote with `printf("Hello, world!");`? You thought it just runs magically, right?” 😄
@@ -9,7 +10,7 @@ It’s a **process**, my friends — like converting raw wheat into hot, buttere
 
  
 
-## 🏗️ From Code to Creation — **C / C++ Build Process (ASCII View)**
+### 🏗️ From Code to Creation — **C / C++ Build Process (ASCII View)**
 
 ```
         ┌──────────────────────┐
@@ -61,9 +62,9 @@ It’s a **process**, my friends — like converting raw wheat into hot, buttere
         └──────────────────────┘
 ```
 
----
+ 
 
-## 🔗 **Multi-File Project View (Real-World Scenario)**
+### 🔗 **Multi-File Project View (Real-World Scenario)**
 
 ```
  main.c        utils.c        math.c
@@ -90,7 +91,7 @@ It’s a **process**, my friends — like converting raw wheat into hot, buttere
 * Why headers don’t produce binaries
 * Why libraries matter
 
----
+ 
 
 ## 🧠 **Mentor Call-Out (Great for Classrooms)**
 
@@ -108,7 +109,7 @@ Once students *see* this, they stop memorizing commands and start **thinking lik
 
  
 
-### 🧾 Step 1: **Preprocessing** – Cleaning and Preparing the Ingredients
+#### 🧾 Step 1: **Preprocessing** – Cleaning and Preparing the Ingredients
 
 Imagine you’re about to cook a dish. First, you gather and clean your ingredients.
 That’s exactly what the **preprocessor** does.
@@ -126,7 +127,7 @@ gcc -E source.c -o source.i
 🧠 **Mentor’s Tip**: In my corporate training sessions, I often ask engineers stuck on strange bugs — *“Did you check what the preprocessor actually saw?”* One look at the `.i` file usually clears the fog.
 
 
-### 🔧 Step 2: **Compilation** – Converting Recipe to Assembly
+#### 🔧 Step 2: **Compilation** – Converting Recipe to Assembly
 
 Now that we have the ingredients, it’s time to **write the recipe** in the language your kitchen understands.
 
@@ -141,7 +142,7 @@ gcc -c source.c -o source.o
 📚 **Mentor’s Insight**: Compilation is where **syntax errors** show up. I once had a brilliant intern who wrote 300 lines of C, only to forget a semicolon — “Sir, it took me 3 hours to fix a 1-character bug!”
 
 
-### ⚙️ Step 3: **Assembling** – Turning Recipe into Raw Dish
+#### ⚙️ Step 3: **Assembling** – Turning Recipe into Raw Dish
 
 If your compiler uses an intermediate `.s` file (assembly), the **assembler** turns that into a `.o` — the raw binary **object file**.
 
@@ -155,7 +156,7 @@ You won’t usually do this manually, but it helps to know what’s happening. T
 
 
 
-### 🔗 Step 4: **Linking** – The Final Plating
+#### 🔗 Step 4: **Linking** – The Final Plating
 
 This is where the real magic happens. Multiple `.o` files are **linked** together.
 
@@ -172,7 +173,7 @@ gcc main.o utils.o -o myprogram
 🎯 **Mentor’s Note**: I once ran a session for a backend team at a fintech firm. They knew C, but didn’t know *why* the linker threw an "undefined reference" error. The moment I explained linking with a real-world analogy — connecting electrical wires from switches to lights — it clicked. ⚡
 
 
-### 🚀 Step 5: **Execution** – Let It Run!
+#### 🚀 Step 5: **Execution** – Let It Run!
 
 Now that your program is ready, just run it:
 
@@ -184,7 +185,7 @@ Welcome to the world of execution! 💥
 
 
 
-### 📂 Real-Life Project Example
+#### 📂 Real-Life Project Example
 
 You’ve got:
 
@@ -205,13 +206,13 @@ Simple, yet profound. You’ve just created software from scratch.
 
 
 
-### 🛠️ Advanced Touch: Build Automation
+#### 🛠️ Advanced Touch: Build Automation
 
 As projects grow, typing these commands manually is like cooking in a 5-star kitchen without helpers.
 
 That’s where **Makefiles** and **CMake** come in — like kitchen robots automating your daily chores.
 
-#### 🧾 Sample Makefile:
+##### 🧾 Sample Makefile:
 
 ```makefile
 all: myprogram
@@ -229,7 +230,7 @@ clean:
     rm -f *.o myprogram
 ```
 
-#### 🔨 Sample CMakeLists.txt:
+##### 🔨 Sample CMakeLists.txt:
 
 ```cmake
 cmake_minimum_required(VERSION 3.10)
@@ -242,7 +243,7 @@ add_executable(myprogram main.c utils.c)
 🧠 **Mentor’s Wisdom**: In industry, automation is gold. Whether you're in automotive, banking, or gaming — no one compiles manually anymore. Get comfortable with Make and CMake early.
 
 
-### 🧾 Summary: The Journey from `.c` to Executable
+#### 🧾 Summary: The Journey from `.c` to Executable
 
 | Step          | Output File                        | Tool        |
 | ------------- | ---------------------------------- | ----------- |
@@ -253,7 +254,7 @@ add_executable(myprogram main.c utils.c)
 | Execution     | Program runs                       | `./program` |
 
 
-## 👨‍🏫 Final Words from the Mentor
+### 👨‍🏫 Final Words from the Mentor
 
 > “Once you understand the build process, you stop fearing errors — you start reading them like a doctor reads X-rays.”
 

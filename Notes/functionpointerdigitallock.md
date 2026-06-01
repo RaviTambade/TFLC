@@ -1,4 +1,4 @@
-# The Lock That Listens to Logic
+# Function Pointers Ditital Lock
 
  *"One day, my student walked in with an idea: ‘Sir, I want to build a smart digital lock system.’ I asked, ‘Is it smart because it has buttons and a screen?’ He replied, ‘No. It’s smart because it **understands states**.’ I smiled. That’s when we started building our lock — from Locked → Entering Code → Unlocked — using function pointers and state transitions.”*
 
@@ -162,4 +162,3 @@ int main() {
 
 You’ve just unlocked a powerful way of thinking. Want to try a **door access system**, **elevator panel**, or **OTP validator** next?
 
-I’m right here. Mentor-style. Ready when you are. 🔑

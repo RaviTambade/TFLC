@@ -1,4 +1,4 @@
-# Transflower Mentor Session: Structures (`struct`) in C
+# Structures (`struct`)
 
 ## Dear Students,
 

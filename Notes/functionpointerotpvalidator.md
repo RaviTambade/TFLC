@@ -176,4 +176,3 @@ int main() {
 
 🧓 *“Whether you’re designing an ATM, vending machine, or an OTP validator — remember, your code isn’t just logic. It’s a system of states responding to the world around it. And with function pointers… you control the brain of the machine.”*
 
-Let me know if you'd like to upgrade this into a **multi-user login system with OTP + password + file-based persistence** — and we’ll take the journey together. Mentor-style. 🔐🚀

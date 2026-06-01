@@ -1,6 +1,6 @@
 
 
-👨‍🏫 ** “Function Pointers — Turning C into a Shape-Shifting Machine”**
+# Function Pointers
 
 
 

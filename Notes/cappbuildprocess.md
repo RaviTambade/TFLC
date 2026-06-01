@@ -172,10 +172,9 @@ make
 
 And boom — cross-platform builds, easy to maintain.
 
-
 ## 🔁 **Final Words from the Mentor’s Bench**
 
-🧓 *“Remember, students… writing code is like writing a story. But building it? That’s like printing the book, binding the pages, and distributing it to readers. Unless your code builds, it’s just potential.”*
+*“Remember, students… writing code is like writing a story. But building it? That’s like printing the book, binding the pages, and distributing it to readers. Unless your code builds, it’s just potential.”*
 
 **Key takeaways:**
 

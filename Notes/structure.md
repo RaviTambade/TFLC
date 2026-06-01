@@ -1,4 +1,4 @@
-# Structure in C
+# Structures
 You can declare user-defined data types using structures (`struct`). A `struct` allows you to group variables of different types under a single name, making it easier to manage related data. Here's a detailed guide on how to declare and use structures in C:
 
 ### Declaring a Structure

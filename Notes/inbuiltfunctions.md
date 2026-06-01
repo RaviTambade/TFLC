@@ -1,3 +1,5 @@
+# Inbuilt Functions of C
+
 When you're learning C programming, you'll encounter a variety of inbuilt functions that help perform common tasks such as input/output operations, string manipulation, memory management, and mathematical calculations. Below is a list of some commonly required inbuilt C functions that are widely used in C programming:
 
 ### 1. **Input/Output Functions**

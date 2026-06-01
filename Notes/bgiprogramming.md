@@ -1,4 +1,4 @@
-## A Journey into BGI with C Language
+## Graphics Programming (BGI)
 
 🧓 *"Gather around, students. Let me take you back to a time before smartphones, before Windows had glossy buttons and touch screens. I’m talking about the early 90s. Computers booted into a black screen with a blinking cursor. And if you wanted to do graphics, you didn’t have a browser or Unity or even OpenGL. You had to earn your pixels... with Borland Graphics Interface—BGI."*
 

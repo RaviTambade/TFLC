@@ -1,4 +1,4 @@
-# Transflower Mentor Session: Next Step After Arrays in C → Strings
+# Strings
 
 ## Dear Students,
 

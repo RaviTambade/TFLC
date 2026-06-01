@@ -1,17 +1,18 @@
+# Procedural Thinking
 
-# “The Chef, the Programmer, and the Lost Password”
 
-🧓 *“I once gave my students a challenge — build a password reset system for a banking app. Half the class jumped to build login screens. One group started coding encryption. But one student named Ria simply asked me: ‘Sir, can I write down the steps first?’*
+### “The Chef, the Programmer, and the Lost Password”
+ *“I once gave my students a challenge — build a password reset system for a banking app. Half the class jumped to build login screens. One group started coding encryption. But one student named Ria simply asked me: ‘Sir, can I write down the steps first?’*
 
 I smiled and said: *‘You’ve just shown the first sign of a procedural thinker.’*
 
 
-## 🧠 What is Procedural Thinking?
+#### 🧠 What is Procedural Thinking?
 
 Procedural thinking is about **thinking in steps**. You don’t just say *what* the outcome should be. You plan **how to get there**, one instruction at a time.
 
 
-### 🧾 Everyday Analogy: Making Tea ☕
+##### 🧾 Everyday Analogy: Making Tea ☕
 
 Think like a machine. Here’s how a procedural thinker sees it:
 
@@ -30,14 +31,14 @@ Each step:
 * Happens in **order**,
 * Depends on the **previous one**.
 
-🧓 *“You can’t pour tea before boiling water. And you can’t skip the sugar if sweetness is essential. That’s the heart of procedural thinking.”*
+*“You can’t pour tea before boiling water. And you can’t skip the sugar if sweetness is essential. That’s the heart of procedural thinking.”*
 
 
-## 💻 In Programming: From Steps to Code
+##### 💻 In Programming: From Steps to Code
 
 Let’s write a simple example: Finding the sum of the first `n` natural numbers.
 
-### 👩‍💻 Procedural Thinking Approach
+##### 👩‍💻 Procedural Thinking Approach
 
 1. Input a number `n`.
 2. Initialize sum to 0.
@@ -45,7 +46,7 @@ Let’s write a simple example: Finding the sum of the first `n` natural numbers
 4. Add each number to the sum.
 5. Display the result.
 
-### 🧱 Translated to C Code
+#####  🧱 Translated to C Code
 
 ```c
 #include <stdio.h>
@@ -67,7 +68,7 @@ int main() {
 👨‍🏫 *“Notice how the code flows like a recipe. Step by step, no surprises. That’s procedural thinking turned into a program.”*
 
 
-## 🔍 Key Traits of Procedural Thinking
+#### 🔍 Key Traits of Procedural Thinking
 
 | Concept            | Meaning                                    |
 | ------------------ | ------------------------------------------ |
@@ -77,7 +78,7 @@ int main() {
 | **Predictability** | Same input = same process = same result    |
 
 
-### 🧪 Real-World Scenarios
+####🧪 Real-World Scenarios
 
 * **ATM Transaction Flow**:
 
@@ -96,9 +97,9 @@ int main() {
   4. Send confirmation email
 
 
-## 🧑‍🎓 Why Do I Teach Procedural Thinking First?
+#### 🧑‍🎓 Why Do I Teach Procedural Thinking First?
 
-🧓 *“Before you master OOP, functional, or reactive programming — you must master *how to think in steps*.”*
+*“Before you master OOP, functional, or reactive programming — you must master *how to think in steps*.”*
 
 I teach my students to:
 
@@ -111,9 +112,9 @@ Because…
 👉 **If you can think in steps, you can automate anything.**
 
 
-## 🧠 Bonus Mentor Wisdom: “Don’t Just Code. Plan Like a Machine.”
+### 🧠 Bonus Mentor Wisdom: “Don’t Just Code. Plan Like a Machine.”
 
-🧓 *“Your brain is more powerful than any compiler — but it needs structure. Procedural thinking is that structure. It’s how you go from a vague idea… to a predictable machine.”*
+*“Your brain is more powerful than any compiler — but it needs structure. Procedural thinking is that structure. It’s how you go from a vague idea… to a predictable machine.”*
 
 
 ## 🌟 Let’s Practice Together
@@ -125,7 +126,7 @@ Want to:
 * Build a **calculator app** that follows a step-by-step flow?
  
 
-## 🧠 Procedural Thinking — **From Thought → Steps → Code (ASCII Diagram)**
+####  🧠 Procedural Thinking — **From Thought → Steps → Code (ASCII Diagram)**
 
 ```
         ┌─────────────────────────┐
@@ -171,7 +172,7 @@ Want to:
 
   
 
-## ☕ Everyday Analogy — Making Tea (Machine’s View)
+#### ☕ Everyday Analogy — Making Tea (Machine’s View)
 
 ```
 START
@@ -195,11 +196,11 @@ Strain & Pour
 END (Tea Ready)
 ```
 
-🧓 *“Skip one step and the machine gets confused. That’s how computers feel too.”*
+*“Skip one step and the machine gets confused. That’s how computers feel too.”*
 
----
 
-## 💻 Procedural Thinking → Program Flow (C Example)
+
+####  💻 Procedural Thinking → Program Flow (C Example)
 
 ```
 START
@@ -239,7 +240,7 @@ i = i + 1                     │
 
  
 
-## 🏦 Real-World Flow — Password Reset (Procedural Lens)
+##### 🏦 Real-World Flow — Password Reset (Procedural Lens)
 
 ```
 START
@@ -265,11 +266,9 @@ Set New Pwd    Retry / Exit
   ▼
 Confirm & Exit
 ```
-
-🧠 *This is why Ria asked to write steps first — she was already thinking like a system.*
+ *This is why Ria asked to write steps first — she was already thinking like a system.*
 
  
 
 > **Procedural thinking means solving problems by defining clear, ordered, executable steps — exactly how a computer works.**
  
-

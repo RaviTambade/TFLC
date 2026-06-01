@@ -1,6 +1,6 @@
-# 👨‍🏫  The Carpenter, the Kitchen, and the Code
+# Modular Approach :The Carpenter, the Kitchen, and the Code
 
-🧓 *“There was once a team of developers working on a massive online shopping portal. Everything was in one big block of code. Changing one feature broke five others. Testing took weeks. Then came Neha — a fresher with a quiet voice and a clear idea: ‘Sir, why don’t we break this into modules?’*
+ *“There was once a team of developers working on a massive online shopping portal. Everything was in one big block of code. Changing one feature broke five others. Testing took weeks. Then came Neha — a fresher with a quiet voice and a clear idea: ‘Sir, why don’t we break this into modules?’*
 
 I nodded, smiled, and said — *‘Neha, you’ve just unlocked the secret to sustainable software: modular thinking.’*
 
@@ -54,7 +54,6 @@ Each one is:
 ## 👩‍💻 Let’s See an Example in C
 
 Imagine a simple student management system broken into modules:
-
 
 ### 📁 `student.h` – Interface
 
@@ -112,8 +111,7 @@ int main() {
     return 0;
 }
 ```
-
-🧓 *“You see what we did? We didn’t mix student logic with UI or file storage. Each concern is modular. If tomorrow you need to change how students are stored — only `student.c` needs to change.”*
+ *“You see what we did? We didn’t mix student logic with UI or file storage. Each concern is modular. If tomorrow you need to change how students are stored — only `student.c` needs to change.”*
 
 
 ## 🌐 In the Real World

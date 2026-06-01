@@ -1,4 +1,4 @@
-## Understanding Stack and Heap Memory in C
+## Memory Stack and Heap
 
 Let me share a little story from one of my early corporate training sessions…
 

@@ -1,5 +1,299 @@
 # Multidimensional Arrays
 
+Students often think:
+
+```text
+1D Array  -> Collection
+2D Array  -> Matrix
+3D Array  -> Cube
+```
+
+That is technically correct.
+
+But an engineer sees something deeper.
+
+# Think Like a Software Engineer
+
+Suppose somebody asks:
+
+> "Can you create a Student Result Management System?"
+
+Immediately your brain should visualize:
+
+```text
+Students
+    ×
+Subjects
+```
+
+which becomes:
+
+```c
+marks[students][subjects]
+```
+
+For example:
+
+```c
+int marks[100][6];
+```
+
+Meaning:
+
+```text
+100 Students
+6 Subjects
+```
+
+Now you are no longer thinking about arrays.
+
+You are thinking about:
+
+```text
+Business Data
+```
+
+represented using arrays.
+
+# Mentor Observation
+
+Look around any organization.
+
+## School
+
+```text
+Students × Subjects
+```
+
+## Hospital
+
+```text
+Patients × Tests
+```
+
+## Retail Shop
+
+```text
+Products × Months
+```
+
+## Bank
+
+```text
+Customers × Transactions
+```
+
+## Cricket Scoreboard
+
+```text
+Players × Matches
+```
+
+Almost every business problem begins as a table.
+
+And every table can be represented as:
+
+```c
+array[row][column]
+```
+
+# The Hidden Connection with Excel
+
+Students use Excel daily.
+
+Example:
+
+|   | A  | B  | C  |
+| - | -- | -- | -- |
+| 1 | 10 | 20 | 30 |
+| 2 | 40 | 50 | 60 |
+| 3 | 70 | 80 | 90 |
+
+When you access:
+
+```text
+B2
+```
+
+you are essentially doing:
+
+```c
+matrix[1][1]
+```
+
+Excel sheets are nothing but large multidimensional structures.
+
+# The Hidden Connection with Images
+
+Suppose a grayscale image:
+
+```text
+0   0   0
+255 255 255
+0   0   0
+```
+
+Can be stored as:
+
+```c
+int image[3][3];
+```
+
+Each cell stores pixel intensity.
+
+For color images:
+
+```c
+int image[height][width][3];
+```
+
+The third dimension represents:
+
+```text
+Red
+Green
+Blue
+```
+
+This is your first step toward:
+
+* Computer Vision
+* Image Processing
+* AI Applications
+
+# The Hidden Connection with Games
+
+Consider Tic-Tac-Toe:
+
+```text
+X O X
+O X O
+X O X
+```
+
+Representation:
+
+```c
+char board[3][3];
+```
+
+Chess:
+
+```c
+char board[8][8];
+```
+
+Every board game starts with multidimensional arrays.
+
+# The Hidden Connection with Databases
+
+Today:
+
+```c
+int marks[100][6];
+```
+
+Tomorrow:
+
+```sql
+StudentMarks Table
+```
+
+| StudentId | Physics | Chemistry | Maths |
+| --------- | ------- | --------- | ----- |
+
+Notice something interesting.
+
+A database table is simply a much more powerful version of:
+
+```c
+2D Array
+```
+
+Understanding arrays helps students understand databases later.
+
+# Memory Perspective
+
+Suppose:
+
+```c
+int matrix[2][3];
+```
+
+Students visualize:
+
+```text
+10 20 30
+40 50 60
+```
+
+But the CPU sees:
+
+```text
+10 20 30 40 50 60
+```
+
+continuous memory.
+
+This concept becomes extremely important when learning:
+
+```text
+Pointers
+DMA
+Linked Lists
+Operating Systems
+Database Engines
+Game Engines
+```
+
+# Why DMA Is the Next Step
+
+Current limitation:
+
+```c
+int marks[100];
+```
+
+Compiler reserves memory before program execution.
+
+But real systems don't know:
+
+```text
+How many students?
+How many customers?
+How many products?
+```
+
+Suppose user enters:
+
+```text
+500 Students
+```
+
+Then:
+
+```c
+int marks[100];
+```
+
+fails.
+
+We need memory during runtime.
+
+Hence:
+
+```c
+malloc()
+calloc()
+realloc()
+free()
+```
+
+
+
+
+# Multidimensional Arrays
+
 Before we move into Dynamic Memory Allocation and Data Structures, there is one very important concept that every software engineer must understand:
 
 # Multidimensional Arrays
@@ -587,84 +881,142 @@ Features:
 * Calculate Subject Average
 * Find Topper
 
-# Knowledge Journey So Far
+# Mentor Challenge
+
+Create a project:
+
+## Student Result Management System
+
+Requirements:
+
+```c
+int marks[5][3];
+```
+
+Store:
+
+```text
+5 Students
+3 Subjects
+```
+
+Implement:
+
+### Feature 1
+
+Enter Marks
+
+```c
+enterMarks();
+```
+
+### Feature 2
+
+Display Report
+
+```c
+displayMarks();
+```
+
+Output:
+
+```text
+Student   Physics Chemistry Maths
+```
+
+### Feature 3
+
+Student Total
+
+```c
+calculateTotal();
+```
+
+### Feature 4
+
+Subject Average
+
+```c
+calculateAverage();
+```
+
+### Feature 5
+
+Find Topper
+
+```c
+findTopper();
+```
+
+### Feature 6
+
+Find Highest Subject Score
+
+```c
+findHighest();
+```
+
+
+
+# Knowledge Map So Far
 
 ```text
 Variables
-   ↓
+    ↓
+Operators
+    ↓
+Control Statements
+    ↓
 Functions
-   ↓
+    ↓
 Pointers
-   ↓
+    ↓
 Arrays
-   ↓
+    ↓
 Strings
-   ↓
+    ↓
 Structures
-   ↓
+    ↓
 Files
-   ↓
+    ↓
 Multidimensional Arrays
 ```
 
-Notice how your thinking is evolving:
+Next comes:
 
 ```text
-Single Value
+Dynamic Memory Allocation
+        ↓
+Linked Lists
+        ↓
+Stacks
+        ↓
+Queues
+        ↓
+Trees
+        ↓
+Hash Tables
+        ↓
+Databases
+        ↓
+Operating Systems
+```
+
+Notice the transformation:
+
+```text
+Value
    ↓
 Collection
    ↓
 Table
    ↓
-Entity
+Runtime Collection
    ↓
-Persistent Storage
+Data Structure
+   ↓
+Software System
 ```
 
-This is exactly how software systems are designed.
+That is the journey from learning C syntax to thinking like a systems engineer.
 
-
-
-# Next Transflower Mentor Session
-
-After Multidimensional Arrays, we move to:
-
-# Dynamic Memory Allocation (DMA)
-
-Because until now:
-
-```c
-int marks[100];
-```
-
-size is fixed at compile time.
-
-Real-world systems don't know beforehand:
-
-```text
-How many customers?
-How many products?
-How many orders?
-```
-
-So we must learn:
-
-```c
-malloc()
-calloc()
-realloc()
-free()
-```
-
-which opens the door to:
-
-```text
-Linked Lists
-Stacks
-Queues
-Trees
-Databases
-Operating Systems
-```
-
-and transforms you from a C programmer into a systems-thinking software engineer.

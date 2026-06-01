@@ -1,4 +1,4 @@
-## "Function Pointers
+## Function Pointers
 
 
 *“I still remember the day I first encountered function pointers. I was debugging a code written by a senior engineer. There were no obvious function calls. Just a pointer, being invoked like a function. I blinked twice. ‘Wait... what? A pointer... calling a function?!’ That’s when I realized — C was more than just loops and arrays. It had a powerful secret: function pointers.”*
